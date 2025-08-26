@@ -1,11 +1,12 @@
 export const CONFIG = {
     API: {
         VERSION: 'v1beta',
-        MODEL_NAME: 'models/gemini-live-2.5-flash-preview'
+		// models/gemini-live-2.5-flash-preview
+        MODEL_NAME: 'models/gemini-2.5-pro'
     },
     // You can change the system instruction to your liking
     SYSTEM_INSTRUCTION: {
-        TEXT: 'You are my helpful assistant. You can see and hear me, and respond with voice and text. If you are asked about things you do not know, you can use the google search tool to find the answer.',
+        TEXT: 'You are my helpful assistant. You can see and hear me, and respond with voice and text. If you are asked about things you do not know, you can use the google search tool to find the answer. 总是使用中文回答我',
     },
     // Default audio settings
     AUDIO: {
